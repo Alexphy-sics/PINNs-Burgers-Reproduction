@@ -12,7 +12,7 @@ Three iterations:
 |---|---|---|
 | v0 | plain Adam, no normalization | loss plateaued |
 | v1 | Xavier init + input normalization | better convergence |
-| **v2** | **Adam warm-up -> L-BFGS fine-tune** | **paper-level accuracy** |
+| **v2** | **Adam warm-up -> L-BFGS fine-tune** | **close to reported accuracy** |
 
 Relative L2 error: **1.77e-03** (paper: 6.7e-04).
 
